@@ -1,14 +1,57 @@
-title: "Stefán Jóhnnsson"
-email: stefaj9@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This CV showcases my experience in DevOps, cloud services, and automation, 
-  focused on optimizing system performance and reliability.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  sevensteves
-linkedin_username: stefan-johannsson
+# Site settings
+title: Stefán Jóhannsson
+baseurl: "/cv"
+url: "https://sevensteves-com.github.io/cv/"
+google_analytics: # Tracking ID, e.g. "UA-000000-01"
+
+# Author
+author:
+  name: Stefán Jóhannsson
+  desc: DevOps Engineer, Infrastructure Engineer, Site Reliability Engineer
+  email: stefaj9@gmail.com
+
+# social
+social:
+  email: true
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: 
+  flickr:
+  github: sevensteves
+  google_plus:
+  instagram:
+  keybase:
+  linkedin: https://www.linkedin.com/in/stefan-johannsson/ 
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:
+  steam:
+  tumblr:
+  gitlab:
+  twitter: 
+  vimeo:
+  wordpress:
+  youtube:
+  default_txt: "Follow On"
 
 # Build settings
-theme: minima
+markdown: kramdown
+
+# Assets
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gems
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+
+# Permalinks
+permalink: /:year-:month-:day/:title
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gem"
+  - "LICENSE"
