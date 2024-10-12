@@ -13,28 +13,9 @@ author:
 # social
 social:
   email: true
-  behance:
-  bitbucket:
-  dribbble:
-  facebook: 
-  flickr:
   github: sevensteves
-  google_plus:
-  instagram:
-  keybase:
   linkedin: https://www.linkedin.com/in/stefan-johannsson/ 
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:
-  steam:
-  tumblr:
-  gitlab:
-  twitter: 
-  vimeo:
-  wordpress:
-  youtube:
-  default_txt: "Follow On"
+  default_txt: ""
 
 # Build settings
 markdown: kramdown
